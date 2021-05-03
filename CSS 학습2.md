@@ -1,5 +1,5 @@
 index.html
-```{.html}
+``` html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -58,7 +58,7 @@ index.html
 </html>
 ```
 style.css
-```{.css}
+``` css
 .body{
     background: white;
 }
@@ -147,8 +147,8 @@ style.css
 }
 
 ```
-
-```{.js}
+index.js
+```javascript
 const searchInput = document.querySelector('.search')
 
 
@@ -157,6 +157,5 @@ searchInput.addEventListener('keyup', function(e){
         window.open("https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query="+ e.target.value, "_blank")
     }
 })
-
-
 ```
+![image](https://user-images.githubusercontent.com/60029949/116839653-1ebaa480-ac0e-11eb-9050-794a2c116d0c.png)
